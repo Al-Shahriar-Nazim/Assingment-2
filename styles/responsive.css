@@ -52,18 +52,24 @@
 /* tour section responsive styles */
 .tour-section{
   flex-direction: column;
+  width: 100%;
 }
 .tour-image {
   width:100%;
-  margin-top: 25px;
-  margin-left: 0px;
+  margin: 25px auto;
+  /* height: 400px; */
+
+}
+.tour-image img{
+  width: 100%;
 }
 .tour-container {
   width: 100%;
 }
 .tour-button{
-  width: 40%;
+  width: 50%;
   margin-top: 24px;
   margin-left: 5px;
+  padding: 10px;
 }
 }
