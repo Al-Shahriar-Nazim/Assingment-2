@@ -1,0 +1,53 @@
+@media screen and (max-width: 576px) {
+  nav {
+    flex-direction: column;
+  }
+  .nav-logo {
+    width: 100%;
+    justify-content: center;
+  }
+  .nav-items {
+    display: flex;
+    width: 100%;
+    padding-top: 10px;
+  }
+  .nav-items ul a {
+    padding-left: 10px;
+}
+/* banner styles */
+.banner-titel {
+  padding-top:20px;
+  width: 100%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 800;
+}
+.banner-description {
+    width: 100%;
+   text-align: center;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.banner-buttom{
+    height: 80%;
+    margin-top: -170px;
+}
+.banner-button1 {
+    height: 70%;
+}
+.banner-button option, select, button {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+   width: 100%;
+   margin: 10px auto;
+}
+.orange-colur-btn{
+    display: flex;
+    flex-direction: row ;
+    gap: 10px;
+}
+
+}
