@@ -49,5 +49,21 @@
     flex-direction: row ;
     gap: 10px;
 }
-
+/* tour section responsive styles */
+.tour-section{
+  flex-direction: column;
+}
+.tour-image {
+  width:100%;
+  margin-top: 25px;
+  margin-left: 0px;
+}
+.tour-container {
+  width: 100%;
+}
+.tour-button{
+  width: 40%;
+  margin-top: 24px;
+  margin-left: 5px;
+}
 }
