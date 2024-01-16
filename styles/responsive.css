@@ -139,4 +139,41 @@
     /* height: 280px; */
     /* margin: 0px auto; */
 }
+/* NEWS LATTER RESPONSIVE */
+.newslatter-container {
+  flex-direction: column;
+}
+.newslatter-from {
+  width: 100%;
+}
+.from .from-button{
+  /* padding-bottom: 20px; */
+  margin-bottom: 24px;
+  /* padding: 24px; */
+}
+/* .newslatter-img img {
+  width: 400px;
+} */
+.newslatter-description {
+  width: 80%;
+  padding-left: 40px;
+}
+.newslatter-img{
+
+  height: 100%;
+  width: 540px;
+  max-width: 100%;
+}
+.newslatter-img-container {
+  width: 100%;
+}
+.newslatter-img-container .discount-box {
+  width: 100%;
+}
+  .newslatter-img-container .discount-box {
+    width:70%;
+    height:130px;
+    margin-left: 90px;
+    margin-bottom: 45px;
+}
 }
