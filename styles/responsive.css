@@ -109,4 +109,27 @@
   flex-direction: column;
   gap: 16px;
 }
+/* location styles */
+.location-description {
+    width: 100%;
   }
+  .card {
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    row-gap: 50px;
+}
+.hotel {
+  width: 100%;
+}
+.map {
+  width: 100%;
+}
+  .price-tag {
+    /* padding: 10px; */
+    width: 100%;
+    margin-top: 45px;
+    /* height: 280px; */
+    /* margin: 0px auto; */
+}
+}
